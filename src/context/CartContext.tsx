@@ -26,7 +26,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   // Load from localStorage
   useEffect(() => {
     try {
-      const saved = localStorage.getItem('shopping99_cart');
+      const saved = localStorage.getItem('smartshopping_cart');
       if (saved) {
         setItems(JSON.parse(saved));
       }
@@ -40,7 +40,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isLoaded) return;
     try {
-      localStorage.setItem('shopping99_cart', JSON.stringify(items));
+      localStorage.setItem('smartshopping_cart', JSON.stringify(items));
     } catch (e) {
       console.error('Failed to save cart to localStorage', e);
     }

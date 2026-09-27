@@ -11,6 +11,7 @@ import {
   IconHeart,
 } from '@tabler/icons-react';
 import { AdBanner } from '@/components/ads/AdBanner';
+import { Logo } from '@/components/layout/Logo';
 
 export function Footer() {
   return (
@@ -81,16 +82,16 @@ export function Footer() {
         <Grid mb="xl" gutter="xl">
           {/* Brand & About */}
           <Grid.Col span={{ base: 12, md: 4 }}>
-            <Text fw={900} size="xl" c="#ffffff" mb="xs">
-              SHOPPING<span style={{ color: '#ffc200' }}>99</span>
-            </Text>
+            <Box mb="sm">
+              <Logo size="lg" isFooter={true} />
+            </Box>
             <Text size="xs" c="gray.4" lh={1.6} mb="md">
-              Shopping99 is India’s premier online discount shopping portal, delivering the highest value deals in Indian Ethnic Dresses, Co-ord Sets, Smart Watches, Accessories, and Daily Essentials directly to your doorstep.
+              Smart Shopping is India’s premier online discount shopping portal, delivering the highest value deals in Indian Ethnic Dresses, Co-ord Sets, Smart Watches, Accessories, and Daily Essentials directly to your doorstep.
             </Text>
             <Group gap="xs">
               <IconMail size={16} color="#ffc200" />
-              <Text size="xs" c="gray.3" component="a" href="mailto:contact@shopping99.in">
-                contact@shopping99.in
+              <Text size="xs" c="gray.3" component="a" href="mailto:contact@smartshopping.in">
+                contact@smartshopping.in
               </Text>
             </Group>
           </Grid.Col>
@@ -169,10 +170,10 @@ export function Footer() {
         {/* Bottom Bar */}
         <Group justify="space-between" align="center">
           <Text size="xs" c="gray.5">
-            © {new Date().getFullYear()} <b>shopping99.in</b> | All Rights Reserved.
+            © {new Date().getFullYear()} <b>Smart Shopping</b> | All Rights Reserved.
           </Text>
           <Text size="xs" c="gray.6">
-            Designed for high performance & mobile responsiveness
+            Smart Shopping - India’s Online Super Store
           </Text>
         </Group>
       </Container>

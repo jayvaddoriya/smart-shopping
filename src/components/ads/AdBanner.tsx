@@ -60,7 +60,7 @@ export function AdBanner({
           cursor: 'pointer',
         }}
         onClick={() => {
-          window.open('https://shopping99.in/category/tranding-sale', '_blank');
+          window.location.href = '/category/tranding-sale';
         }}
       >
         <Group justify="space-between" mb={4}>

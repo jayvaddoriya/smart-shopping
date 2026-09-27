@@ -67,7 +67,7 @@ export default function AddressPage() {
 
     // Save address and proceed to final payment step
     try {
-      localStorage.setItem('shopping99_saved_address', JSON.stringify(formData));
+      localStorage.setItem('smartshopping_saved_address', JSON.stringify(formData));
     } catch (e) {
       // ignore
     }

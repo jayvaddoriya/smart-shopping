@@ -12,9 +12,26 @@ import { AdSenseScript } from '@/components/ads/AdSenseScript';
 import { AdBanner } from '@/components/ads/AdBanner';
 
 export const metadata: Metadata = {
-  title: 'Sale Sale Sale - Shopping99 Maha Sale',
-  description: 'Maha Sale - Shop trending Indian Dresses, Co-ord Sets, Kurtis, Smart Watches and Accessories at lowest prices with Free Shipping and Cash on Delivery.',
-  keywords: 'Maha Sale, Indian dresses, kurti, saree, shopping99, discount clothes, smart watch',
+  title: 'Smart Shopping - India’s Favorite Online Mega Sale & Super Store',
+  description: 'Smart Shopping - Shop trending Indian Dresses, Co-ord Sets, Kurtis, Smart Watches and Accessories at lowest prices with Free Shipping and Cash on Delivery across India.',
+  keywords: 'Smart Shopping, smart shopping online, smartshopping.in, Maha Sale, Indian dresses, kurti, saree, discount clothes, smart watch, online shopping india',
+  authors: [{ name: 'Smart Shopping' }],
+  openGraph: {
+    title: 'Smart Shopping - India’s Favorite Online Mega Sale & Super Store',
+    description: 'Shop trending fashion, ethnic dresses, smart watches and viral lifestyle accessories at up to 85% off with Free Delivery.',
+    siteName: 'Smart Shopping',
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Smart Shopping - India’s Favorite Online Mega Sale',
+    description: 'Discover trending deals on Smart Shopping with 100% genuine quality and Cash on Delivery.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export const viewport: Viewport = {

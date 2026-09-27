@@ -22,9 +22,9 @@ import {
   IconMenu2,
   IconX,
   IconFlame,
-  IconClock,
 } from '@tabler/icons-react';
 import { useCart } from '@/context/CartContext';
+import { Logo } from '@/components/layout/Logo';
 import categoriesData from '@/data/categories.json';
 
 export function Header() {
@@ -72,7 +72,7 @@ export function Header() {
             <Group gap={6} align="center">
               <IconFlame size={16} color="#ffc200" />
               <Text size="xs" fw={700} style={{ letterSpacing: '0.5px' }}>
-                MAHA SALE ENDS IN:
+                SMART SHOPPING MAHA SALE ENDS IN:
               </Text>
               <Badge color="yellow" variant="filled" size="sm" radius="xs" c="#000" fw={700}>
                 {formatTwoDigits(timeLeft.hours)}h : {formatTwoDigits(timeLeft.minutes)}m : {formatTwoDigits(timeLeft.seconds)}s
@@ -100,18 +100,14 @@ export function Header() {
               <IconMenu2 size={24} />
             </ActionIcon>
 
-            <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
-              <Box style={{ fontWeight: 900, fontSize: '24px', color: '#9f2089', letterSpacing: '-0.5px' }}>
-                SHOPPING<span style={{ color: '#ffc200', background: '#9f2089', padding: '2px 6px', borderRadius: '4px', marginLeft: '2px' }}>99</span>
-              </Box>
-            </Link>
+            <Logo size="md" />
           </Group>
 
           {/* Center: Search Bar */}
           <Box style={{ flex: 1, maxWidth: '540px' }} mx="md" visibleFrom="xs">
             <form onSubmit={handleSearch}>
               <TextInput
-                placeholder="Search for Sarees, Kurtis, Smart Watches, Cosmetics..."
+                placeholder="Search Smart Shopping for Sarees, Kurtis, Smart Watches..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.currentTarget.value)}
                 leftSection={<IconSearch size={18} color="#999" />}
@@ -173,11 +169,11 @@ export function Header() {
           </Group>
         </Group>
 
-        {/* Mobile Search Input (Visible only on smallest screens) */}
+        {/* Mobile Search Input */}
         <Box mt="xs" hiddenFrom="xs">
           <form onSubmit={handleSearch}>
             <TextInput
-              placeholder="Search Sarees, Watches, Kurtis..."
+              placeholder="Search Smart Shopping deals..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.currentTarget.value)}
               leftSection={<IconSearch size={16} color="#999" />}
@@ -222,11 +218,7 @@ export function Header() {
       <Drawer
         opened={menuOpened}
         onClose={() => setMenuOpened(false)}
-        title={
-          <Text fw={700} size="lg" c="#9f2089">
-            Categories & Menu
-          </Text>
-        }
+        title={<Logo size="sm" />}
         padding="md"
         size="xs"
       >
@@ -269,7 +261,7 @@ export function Header() {
             </Text>
             <Stack gap="xs">
               <Link href="/about-us" onClick={() => setMenuOpened(false)}>
-                <Text size="sm" c="dimmed">About Us</Text>
+                <Text size="sm" c="dimmed">About Smart Shopping</Text>
               </Link>
               <Link href="/contact-us" onClick={() => setMenuOpened(false)}>
                 <Text size="sm" c="dimmed">Contact Us</Text>

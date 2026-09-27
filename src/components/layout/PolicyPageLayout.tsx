@@ -67,7 +67,7 @@ export function PolicyPageLayout({ slug, defaultTitle }: PolicyPageLayoutProps) 
           </Group>
 
           <Text size="xs" c="dimmed" mb="lg">
-            shopping99.in • Operated by KVB Enterprise • Official Document
+            Smart Shopping • Official Document
           </Text>
 
           <Divider mb="lg" />
@@ -125,8 +125,8 @@ export function PolicyPageLayout({ slug, defaultTitle }: PolicyPageLayoutProps) 
             </Group>
             <Text size="xs" c="dimmed">
               For any clarification regarding our policies or orders, email us directly at{' '}
-              <Anchor href="mailto:contact@shopping99.in" fw={700} c="#9f2089">
-                contact@shopping99.in
+              <Anchor href="mailto:contact@smartshopping.in" fw={700} c="#9f2089">
+                contact@smartshopping.in
               </Anchor>
               . We respond within 24-48 business hours.
             </Text>

@@ -1,4 +1,4 @@
-# How to Deploy Shopping99 to Netlify
+# How to Deploy Smart Shopping to Netlify
 
 Your project is 100% prepared and pre-built for Netlify with all 285 pages (products, categories, cart, payment, policies) compiled in the `out/` directory.
 
@@ -13,7 +13,7 @@ Choose whichever deployment method you prefer:
    ```
    D:\shopping-website\out
    ```
-3. Netlify will instantly upload and give you a live HTTPS URL (e.g. `https://shopping99-xxx.netlify.app`).
+3. Netlify will instantly upload and give you a live HTTPS URL (e.g. `https://smartshopping-xxx.netlify.app`).
 
 ---
 
@@ -32,7 +32,7 @@ npx netlify deploy --prod --dir=out
 When prompted:
 - Select `Create & configure a new site`
 - Choose your team name
-- Choose a site name (e.g., `shopping99-india`)
+- Choose a site name (e.g., `smart-shopping-india`)
 
 Your site will be live immediately!
 
@@ -40,10 +40,10 @@ Your site will be live immediately!
 
 ## Option 3: Continuous Deployment via GitHub
 
-1. Create a new repository on GitHub (e.g., `shopping-website`).
+1. Create a new repository on GitHub (e.g., `smart-shopping`).
 2. Run in PowerShell:
    ```powershell
-   git remote add origin https://github.com/YOUR_USERNAME/shopping-website.git
+   git remote add origin https://github.com/YOUR_USERNAME/smart-shopping.git
    git branch -M main
    git push -u origin main
    ```
