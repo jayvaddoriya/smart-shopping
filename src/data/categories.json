@@ -1,0 +1,44 @@
+[
+  {
+    "id": "indian-dresses",
+    "name": "Indian Dresses",
+    "slug": "indian-dresses",
+    "image": "https://shopping99.in/assets/images/india-dresses.webp",
+    "description": "Explore the latest designer Kurtis, Anarkalis, Sarees, and festive Indian wear."
+  },
+  {
+    "id": "co-ord-set",
+    "name": "Co-ord Set",
+    "slug": "co-ord-set",
+    "image": "https://shopping99.in/assets/images/co-ord-set.webp",
+    "description": "Chic and matching two-piece co-ord sets perfect for casual and formal outings."
+  },
+  {
+    "id": "ethnic-wear",
+    "name": "Ethnic Wear",
+    "slug": "ethnic-wear",
+    "image": "https://shopping99.in/assets/images/ethnic-wear.webp",
+    "description": "Traditional royal ethnic wear with exquisite zari and thread work."
+  },
+  {
+    "id": "combo",
+    "name": "COMBO Offers",
+    "slug": "combo",
+    "image": "https://shopping99.in/assets/images/combo.webp",
+    "description": "Mega value pack combos with up to 80% off."
+  },
+  {
+    "id": "tranding-sale",
+    "name": "Trending Sale",
+    "slug": "tranding-sale",
+    "image": "https://shopping99.in/assets/images/a.jpg",
+    "description": "Top hot-selling viral products across India at lowest prices."
+  },
+  {
+    "id": "mobiles--watch",
+    "name": "Mobiles & Smart Watch",
+    "slug": "mobiles--watch",
+    "image": "https://shopping99.in/assets/website/images/new-offer.png",
+    "description": "Smart watches, Bluetooth couple accessories, and gadgets."
+  }
+]
